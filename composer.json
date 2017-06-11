@@ -1,0 +1,11 @@
+{
+    "name": "trungpv/fb-oauth",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "trungpv",
+            "email": "trungpv1601@gmail.com"
+        }
+    ],
+    "require": {}
+}
