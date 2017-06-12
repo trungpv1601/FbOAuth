@@ -17,14 +17,12 @@
 
 namespace Trungpv1601\FbOAuth;
 
-use FacebookApiException;
-
-if ( !function_exists( 'curl_init' ) ) {
-    throw new Exception( 'Facebook needs the CURL PHP extension.' );
-}
-if ( !function_exists( 'json_decode' ) ) {
-    throw new Exception( 'Facebook needs the JSON PHP extension.' );
-}
+// if ( !function_exists( 'curl_init' ) ) {
+//     throw new Exception( 'Facebook needs the CURL PHP extension.' );
+// }
+// if ( !function_exists( 'json_decode' ) ) {
+//     throw new Exception( 'Facebook needs the JSON PHP extension.' );
+// }
 
 /**
  * Provides access to the Facebook Platform.  This class provides
